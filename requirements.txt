@@ -1,0 +1,31 @@
+fastapi==0.111.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+aiofiles==23.2.1
+pillow==10.3.0
+numpy==1.26.4
+scipy==1.13.1
+scikit-learn==1.5.0
+scikit-image==0.23.2
+pandas==2.2.2
+openpyxl==3.1.3
+# Base ONNX Runtime (CPU). For GPU acceleration, replace with one of:
+#   onnxruntime-gpu   (NVIDIA CUDA)
+#   onnxruntime-rocm  (AMD ROCm on Linux)
+#   onnxruntime-openvino (Intel OpenVINO)
+#   onnxruntime-directml (Windows DirectML)
+#   onnxruntime-coreml (macOS CoreML - often included in base package)
+onnxruntime==1.18.0  # Use onnxruntime-gpu, onnxruntime-rocm, or onnxruntime-openvino if available
+opencv-python-headless==4.10.0.82
+imagehash==4.3.1
+pyexiftool==0.5.6
+rawpy==0.19.1
+python-jose[cryptography]==3.3.0
+pydantic==2.7.2
+pydantic-settings==2.2.1
+sqlalchemy==2.0.30
+aiosqlite==0.20.0
+httpx==0.27.0
+rich==13.7.1
+websockets==12.0
+plotly==5.22.0

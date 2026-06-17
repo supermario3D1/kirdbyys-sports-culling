@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Kirdbyys Sports Culling Tool
+Comment=AI-powered sports photography culling
+Exec=bash -c "cd /home/user/kirdbyys-sports-culling && source .venv/bin/activate && python -m kirdbyys"
+Icon=/home/user/kirdbyys-sports-culling/kirdbyys/ui/static/icon.svg
+Type=Application
+Terminal=false
+Categories=Graphics;Photography;Utility;
