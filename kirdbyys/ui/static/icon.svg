@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <defs>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#EA580C"/>
+    </linearGradient>
+  </defs>
+  <rect width="120" height="120" rx="28" fill="url(#iconGrad)"/>
+  <circle cx="60" cy="52" r="34" fill="none" stroke="#F8FAFC" stroke-width="4"/>
+  <circle cx="60" cy="52" r="31" fill="none" stroke="#334155" stroke-width="1"/>
+  <path d="M60 22 L72 46 L48 46 Z" fill="url(#accentGrad)" opacity="0.95"/>
+  <path d="M86 34 L74 52 L60 40 Z" fill="url(#accentGrad)" opacity="0.9"/>
+  <path d="M86 62 L62 56 L72 46 Z" fill="url(#accentGrad)" opacity="0.85"/>
+  <path d="M60 78 L52 56 L72 56 Z" fill="url(#accentGrad)" opacity="0.9"/>
+  <path d="M34 62 L50 48 L60 58 Z" fill="url(#accentGrad)" opacity="0.85"/>
+  <path d="M34 34 L56 44 L44 60 Z" fill="url(#accentGrad)" opacity="0.95"/>
+  <polygon points="60,40 66,50 62,62 48,62 44,50" fill="#F8FAFC" opacity="0.95"/>
+  <circle cx="60" cy="52" r="4" fill="#0F172A"/>
+  <text x="60" y="106" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="800" fill="#F8FAFC" text-anchor="middle" letter-spacing="1">KIRDBYYS</text>
+</svg>

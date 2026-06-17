@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 120" width="340" height="120">
+  <defs>
+    <linearGradient id="brandGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB923C"/>
+      <stop offset="100%" stop-color="#F97316"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(20, 20)">
+    <circle cx="40" cy="40" r="38" fill="none" stroke="#F8FAFC" stroke-width="4"/>
+    <circle cx="40" cy="40" r="34" fill="none" stroke="#334155" stroke-width="1"/>
+    <path d="M40 10 L52 34 L32 34 Z" fill="url(#brandGradDark)" opacity="0.95"/>
+    <path d="M66 24 L54 42 L40 30 Z" fill="url(#brandGradDark)" opacity="0.9"/>
+    <path d="M66 56 L42 50 L52 34 Z" fill="url(#brandGradDark)" opacity="0.85"/>
+    <path d="M40 70 L32 48 L52 48 Z" fill="url(#brandGradDark)" opacity="0.9"/>
+    <path d="M14 56 L30 42 L40 54 Z" fill="url(#brandGradDark)" opacity="0.85"/>
+    <path d="M14 24 L36 34 L28 50 Z" fill="url(#brandGradDark)" opacity="0.95"/>
+    <polygon points="40,32 46,40 42,50 32,50 28,40" fill="#F8FAFC" opacity="0.95"/>
+    <circle cx="40" cy="40" r="4" fill="#0F172A"/>
+  </g>
+  <text x="100" y="54" font-family="Inter, system-ui, sans-serif" font-size="32" font-weight="800" fill="#F8FAFC" letter-spacing="-1">KIRDBYYS</text>
+  <text x="100" y="78" font-family="Inter, system-ui, sans-serif" font-size="12" font-weight="500" fill="#94A3B8" letter-spacing="3">SPORTS CULLING TOOL</text>
+</svg>
