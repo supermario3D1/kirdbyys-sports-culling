@@ -36,15 +36,19 @@ Kirdbyys analyzes thousands of sports photographs and automatically identifies t
 
 ### Installation
 
-```bash
-# Clone or extract the project
-cd kirdbyys-sports-culling
+Kirdbyys works on **Fedora Linux**, **Ubuntu/Debian**, **Windows 10/11**, and **macOS**. It auto-detects your CPU/GPU and uses the best available provider.
 
-# Create a virtual environment
+For detailed, platform-specific instructions, see:
+
+📖 **[Full Installation Guide](docs/INSTALLATION.md)**
+
+#### Quick-start (Fedora / Ubuntu / macOS)
+
+```bash
+cd kirdbyys-sports-culling
 python3 -m venv .venv
 source .venv/bin/activate
-
-# Install dependencies
+pip install --upgrade pip
 pip install -r requirements.txt
 
 # Optional: install GPU-specific onnxruntime for your hardware
@@ -53,14 +57,11 @@ pip install -r requirements.txt
 #   AMD/Intel Windows: pip install onnxruntime-directml
 #   Intel: pip install onnxruntime-openvino
 
-# Download ONNX models
 python scripts/setup_models.py
-
-# Start the application
 python -m kirdbyys
 ```
 
-Then open your browser at **http://127.0.0.1:7840**.
+Then open **http://127.0.0.1:7840** in your browser.
 
 ### Using the App
 
